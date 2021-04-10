@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @horse.name %>
+</p>
+
+<p>
+  <strong>Year of birth:</strong>
+  <%= @horse.year_of_birth %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @horse.color %>
+</p>
+
+<%= link_to 'Edit', edit_horse_path(@horse) %> |
+<%= link_to 'Back', horses_path %>
